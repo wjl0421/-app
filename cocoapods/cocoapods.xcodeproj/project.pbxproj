@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C31CE840BC700A3966886A5 /* libPods-cocoapods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C915DE4D6EA06A700442E6ED /* libPods-cocoapods.a */; };
+		6FFFAC9B04192F2EB82047A9 /* libPods-cocoapodsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20CBE2247B364D213AF2779A /* libPods-cocoapodsTests.a */; };
+		B5477083C0E7C23334D05D97 /* libPods-cocoapodsUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5016660DDF3F511680DFF307 /* libPods-cocoapodsUITests.a */; };
+		CC48E44E1D43318000501476 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC48E44D1D43318000501476 /* main.m */; };
+		CC48E4511D43318000501476 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC48E4501D43318000501476 /* AppDelegate.m */; };
+		CC48E4541D43318000501476 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC48E4531D43318000501476 /* ViewController.m */; };
+		CC48E4571D43318000501476 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC48E4551D43318000501476 /* Main.storyboard */; };
+		CC48E4591D43318000501476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC48E4581D43318000501476 /* Assets.xcassets */; };
+		CC48E45C1D43318000501476 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC48E45A1D43318000501476 /* LaunchScreen.storyboard */; };
+		CC48E4671D43318000501476 /* cocoapodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC48E4661D43318000501476 /* cocoapodsTests.m */; };
+		CC48E4721D43318000501476 /* cocoapodsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC48E4711D43318000501476 /* cocoapodsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC48E4631D43318000501476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC48E4411D43318000501476 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC48E4481D43318000501476;
+			remoteInfo = cocoapods;
+		};
+		CC48E46E1D43318000501476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC48E4411D43318000501476 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC48E4481D43318000501476;
+			remoteInfo = cocoapods;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19C9A1270B658BD4F5453C5C /* Pods-cocoapodsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cocoapodsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cocoapodsTests/Pods-cocoapodsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		20CBE2247B364D213AF2779A /* libPods-cocoapodsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cocoapodsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A62AE669BD85C7AC8C80FC7 /* Pods-cocoapods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cocoapods.release.xcconfig"; path = "Pods/Target Support Files/Pods-cocoapods/Pods-cocoapods.release.xcconfig"; sourceTree = "<group>"; };
+		5016660DDF3F511680DFF307 /* libPods-cocoapodsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cocoapodsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51F2AD2788E3A4EA306BEC26 /* Pods-cocoapodsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cocoapodsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-cocoapodsTests/Pods-cocoapodsTests.release.xcconfig"; sourceTree = "<group>"; };
+		B2F2CB5AAECD239521398E8F /* Pods-cocoapodsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cocoapodsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cocoapodsUITests/Pods-cocoapodsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B32627727C8DD2020073BBD0 /* Pods-cocoapodsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cocoapodsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-cocoapodsUITests/Pods-cocoapodsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B9A8AA979CA6BE6B49A8A954 /* Pods-cocoapods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cocoapods.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cocoapods/Pods-cocoapods.debug.xcconfig"; sourceTree = "<group>"; };
+		C915DE4D6EA06A700442E6ED /* libPods-cocoapods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cocoapods.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC48E4491D43318000501476 /* cocoapods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cocoapods.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC48E44D1D43318000501476 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC48E44F1D43318000501476 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC48E4501D43318000501476 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC48E4521D43318000501476 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC48E4531D43318000501476 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC48E4561D43318000501476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC48E4581D43318000501476 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC48E45B1D43318000501476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC48E45D1D43318000501476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC48E4621D43318000501476 /* cocoapodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cocoapodsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC48E4661D43318000501476 /* cocoapodsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cocoapodsTests.m; sourceTree = "<group>"; };
+		CC48E4681D43318000501476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC48E46D1D43318000501476 /* cocoapodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cocoapodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC48E4711D43318000501476 /* cocoapodsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cocoapodsUITests.m; sourceTree = "<group>"; };
+		CC48E4731D43318000501476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC48E4461D43318000501476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C31CE840BC700A3966886A5 /* libPods-cocoapods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC48E45F1D43318000501476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFFAC9B04192F2EB82047A9 /* libPods-cocoapodsTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC48E46A1D43318000501476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5477083C0E7C23334D05D97 /* libPods-cocoapodsUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAB6C812ED7396B489E47200 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C915DE4D6EA06A700442E6ED /* libPods-cocoapods.a */,
+				20CBE2247B364D213AF2779A /* libPods-cocoapodsTests.a */,
+				5016660DDF3F511680DFF307 /* libPods-cocoapodsUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFC5106DE72C2BC40539995E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9A8AA979CA6BE6B49A8A954 /* Pods-cocoapods.debug.xcconfig */,
+				3A62AE669BD85C7AC8C80FC7 /* Pods-cocoapods.release.xcconfig */,
+				19C9A1270B658BD4F5453C5C /* Pods-cocoapodsTests.debug.xcconfig */,
+				51F2AD2788E3A4EA306BEC26 /* Pods-cocoapodsTests.release.xcconfig */,
+				B2F2CB5AAECD239521398E8F /* Pods-cocoapodsUITests.debug.xcconfig */,
+				B32627727C8DD2020073BBD0 /* Pods-cocoapodsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC48E4401D43318000501476 = {
+			isa = PBXGroup;
+			children = (
+				CC48E44B1D43318000501476 /* cocoapods */,
+				CC48E4651D43318000501476 /* cocoapodsTests */,
+				CC48E4701D43318000501476 /* cocoapodsUITests */,
+				CC48E44A1D43318000501476 /* Products */,
+				AFC5106DE72C2BC40539995E /* Pods */,
+				AAB6C812ED7396B489E47200 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC48E44A1D43318000501476 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC48E4491D43318000501476 /* cocoapods.app */,
+				CC48E4621D43318000501476 /* cocoapodsTests.xctest */,
+				CC48E46D1D43318000501476 /* cocoapodsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC48E44B1D43318000501476 /* cocoapods */ = {
+			isa = PBXGroup;
+			children = (
+				CC48E44F1D43318000501476 /* AppDelegate.h */,
+				CC48E4501D43318000501476 /* AppDelegate.m */,
+				CC48E4521D43318000501476 /* ViewController.h */,
+				CC48E4531D43318000501476 /* ViewController.m */,
+				CC48E4551D43318000501476 /* Main.storyboard */,
+				CC48E4581D43318000501476 /* Assets.xcassets */,
+				CC48E45A1D43318000501476 /* LaunchScreen.storyboard */,
+				CC48E45D1D43318000501476 /* Info.plist */,
+				CC48E44C1D43318000501476 /* Supporting Files */,
+			);
+			path = cocoapods;
+			sourceTree = "<group>";
+		};
+		CC48E44C1D43318000501476 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC48E44D1D43318000501476 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC48E4651D43318000501476 /* cocoapodsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC48E4661D43318000501476 /* cocoapodsTests.m */,
+				CC48E4681D43318000501476 /* Info.plist */,
+			);
+			path = cocoapodsTests;
+			sourceTree = "<group>";
+		};
+		CC48E4701D43318000501476 /* cocoapodsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC48E4711D43318000501476 /* cocoapodsUITests.m */,
+				CC48E4731D43318000501476 /* Info.plist */,
+			);
+			path = cocoapodsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC48E4481D43318000501476 /* cocoapods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC48E4761D43318000501476 /* Build configuration list for PBXNativeTarget "cocoapods" */;
+			buildPhases = (
+				664D81B0A9A83C481852A51D /* [CP] Check Pods Manifest.lock */,
+				CC48E4451D43318000501476 /* Sources */,
+				CC48E4461D43318000501476 /* Frameworks */,
+				CC48E4471D43318000501476 /* Resources */,
+				2F2C549E4EE1454F38F00C1E /* [CP] Embed Pods Frameworks */,
+				FDC8A3EA3308BAE2F2B4DC8F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cocoapods;
+			productName = cocoapods;
+			productReference = CC48E4491D43318000501476 /* cocoapods.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC48E4611D43318000501476 /* cocoapodsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC48E4791D43318000501476 /* Build configuration list for PBXNativeTarget "cocoapodsTests" */;
+			buildPhases = (
+				EF333FE6E1F4E7E695545D5A /* [CP] Check Pods Manifest.lock */,
+				CC48E45E1D43318000501476 /* Sources */,
+				CC48E45F1D43318000501476 /* Frameworks */,
+				CC48E4601D43318000501476 /* Resources */,
+				416D47FBA1B67ABA47DF00D7 /* [CP] Embed Pods Frameworks */,
+				4B3D9253269F8C3281595B61 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC48E4641D43318000501476 /* PBXTargetDependency */,
+			);
+			name = cocoapodsTests;
+			productName = cocoapodsTests;
+			productReference = CC48E4621D43318000501476 /* cocoapodsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC48E46C1D43318000501476 /* cocoapodsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC48E47C1D43318000501476 /* Build configuration list for PBXNativeTarget "cocoapodsUITests" */;
+			buildPhases = (
+				77E34C701DEA17BF41E1DED4 /* [CP] Check Pods Manifest.lock */,
+				CC48E4691D43318000501476 /* Sources */,
+				CC48E46A1D43318000501476 /* Frameworks */,
+				CC48E46B1D43318000501476 /* Resources */,
+				4BD827CCE47291860CC67300 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC48E46F1D43318000501476 /* PBXTargetDependency */,
+			);
+			name = cocoapodsUITests;
+			productName = cocoapodsUITests;
+			productReference = CC48E46D1D43318000501476 /* cocoapodsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC48E4411D43318000501476 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CC48E4481D43318000501476 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					CC48E4611D43318000501476 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CC48E4481D43318000501476;
+					};
+					CC48E46C1D43318000501476 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CC48E4481D43318000501476;
+					};
+				};
+			};
+			buildConfigurationList = CC48E4441D43318000501476 /* Build configuration list for PBXProject "cocoapods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC48E4401D43318000501476;
+			productRefGroup = CC48E44A1D43318000501476 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC48E4481D43318000501476 /* cocoapods */,
+				CC48E4611D43318000501476 /* cocoapodsTests */,
+				CC48E46C1D43318000501476 /* cocoapodsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC48E4471D43318000501476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC48E45C1D43318000501476 /* LaunchScreen.storyboard in Resources */,
+				CC48E4591D43318000501476 /* Assets.xcassets in Resources */,
+				CC48E4571D43318000501476 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC48E4601D43318000501476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC48E46B1D43318000501476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F2C549E4EE1454F38F00C1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cocoapods/Pods-cocoapods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		416D47FBA1B67ABA47DF00D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cocoapodsTests/Pods-cocoapodsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B3D9253269F8C3281595B61 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cocoapodsTests/Pods-cocoapodsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BD827CCE47291860CC67300 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cocoapodsUITests/Pods-cocoapodsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		664D81B0A9A83C481852A51D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		77E34C701DEA17BF41E1DED4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF333FE6E1F4E7E695545D5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FDC8A3EA3308BAE2F2B4DC8F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cocoapods/Pods-cocoapods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC48E4451D43318000501476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC48E4541D43318000501476 /* ViewController.m in Sources */,
+				CC48E4511D43318000501476 /* AppDelegate.m in Sources */,
+				CC48E44E1D43318000501476 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC48E45E1D43318000501476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC48E4671D43318000501476 /* cocoapodsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC48E4691D43318000501476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC48E4721D43318000501476 /* cocoapodsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC48E4641D43318000501476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC48E4481D43318000501476 /* cocoapods */;
+			targetProxy = CC48E4631D43318000501476 /* PBXContainerItemProxy */;
+		};
+		CC48E46F1D43318000501476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC48E4481D43318000501476 /* cocoapods */;
+			targetProxy = CC48E46E1D43318000501476 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC48E4551D43318000501476 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC48E4561D43318000501476 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC48E45A1D43318000501476 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC48E45B1D43318000501476 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC48E4741D43318000501476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC48E4751D43318000501476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC48E4771D43318000501476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9A8AA979CA6BE6B49A8A954 /* Pods-cocoapods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cocoapods/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qingyun.cocoapods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC48E4781D43318000501476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A62AE669BD85C7AC8C80FC7 /* Pods-cocoapods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cocoapods/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qingyun.cocoapods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC48E47A1D43318000501476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19C9A1270B658BD4F5453C5C /* Pods-cocoapodsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cocoapodsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qingyun.cocoapodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cocoapods.app/cocoapods";
+			};
+			name = Debug;
+		};
+		CC48E47B1D43318000501476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51F2AD2788E3A4EA306BEC26 /* Pods-cocoapodsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cocoapodsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qingyun.cocoapodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cocoapods.app/cocoapods";
+			};
+			name = Release;
+		};
+		CC48E47D1D43318000501476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2F2CB5AAECD239521398E8F /* Pods-cocoapodsUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = cocoapodsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qingyun.cocoapodsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = cocoapods;
+			};
+			name = Debug;
+		};
+		CC48E47E1D43318000501476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B32627727C8DD2020073BBD0 /* Pods-cocoapodsUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = cocoapodsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qingyun.cocoapodsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = cocoapods;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC48E4441D43318000501476 /* Build configuration list for PBXProject "cocoapods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC48E4741D43318000501476 /* Debug */,
+				CC48E4751D43318000501476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC48E4761D43318000501476 /* Build configuration list for PBXNativeTarget "cocoapods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC48E4771D43318000501476 /* Debug */,
+				CC48E4781D43318000501476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC48E4791D43318000501476 /* Build configuration list for PBXNativeTarget "cocoapodsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC48E47A1D43318000501476 /* Debug */,
+				CC48E47B1D43318000501476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC48E47C1D43318000501476 /* Build configuration list for PBXNativeTarget "cocoapodsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC48E47D1D43318000501476 /* Debug */,
+				CC48E47E1D43318000501476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC48E4411D43318000501476 /* Project object */;
+}
